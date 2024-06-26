@@ -58,7 +58,7 @@ namespace Eco.Mods.TechTree
     [RequireComponent(typeof(RoomRequirementsComponent))]
     [RequireRoomContainment]
     [RequireRoomVolume(20)]
-    [RequireRoomMaterialTier(1f, typeof(FarmingLavishReqTalent), typeof(FarmingFrugalReqTalent))]
+    [RequireRoomMaterialTier(1.0f, typeof(FarmingLavishReqTalent), typeof(FarmingFrugalReqTalent))]
     [Tag("Usable")]
     [Ecopedia("Work Stations", "Craft Tables", subPageName: "Hydrotable Item")]
     public partial class HydrotableObject : WorldObject, IRepresentsItem
