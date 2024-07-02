@@ -13,6 +13,7 @@ Custom set of changes to Hydroponics and Grenhouses mod specificaly made for CZ/
 - Crafted by Farmer instead of Gatherer
 - Crafts needs 200% calories instead of 100%, 400 per craft
 - Gains benefit of Farmer's Talents
+- Reduced crop yield from tables by 60%
 
 ## Crop Greenhouse Changes
 - Accepts Advanced Upgrades instead of Basic Upgrades
@@ -24,6 +25,7 @@ Custom set of changes to Hydroponics and Grenhouses mod specificaly made for CZ/
 - Crafted by Fertilizer instead of Farmer
 - Crafts needs 200% calories instead of 100%, 800 per craft
 - Gains benefit of Fertilizer's Talents
+- Reduced crop yield from greenhouses by 50%
 
 ## Sapling Greenhouse Changes
 - Accepts Advanced Upgrades instead of Basic Upgrades

@@ -49,7 +49,7 @@ namespace Eco.Mods.TechTree
                 items: new List<CraftingElement>
                 {
 					new CraftingElement<BeetGreensItem>(5),
-                    new CraftingElement<BeetItem>(40),
+                    new CraftingElement<BeetItem>(20),
                 });
             this.Recipes = new List<Recipe> { recipe };
             this.ExperienceOnCraft = 1; // Defines how much experience is gained when crafted.

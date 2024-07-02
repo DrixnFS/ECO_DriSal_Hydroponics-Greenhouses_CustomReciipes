@@ -48,7 +48,7 @@ namespace Eco.Mods.TechTree
                 // to create.
                 items: new List<CraftingElement>
                 {
-                    new CraftingElement<FireweedShootsItem>(40),
+                    new CraftingElement<FireweedShootsItem>(20),
                 });
             this.Recipes = new List<Recipe> { recipe };
             this.ExperienceOnCraft = 1; // Defines how much experience is gained when crafted.
