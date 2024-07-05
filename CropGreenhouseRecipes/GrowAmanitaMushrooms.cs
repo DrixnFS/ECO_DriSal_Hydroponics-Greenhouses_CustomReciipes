@@ -39,7 +39,7 @@ namespace Eco.Mods.TechTree
                 // type of the item, the amount of the item, the skill required, and the talent used.
                 ingredients: new List<IngredientElement>
                 {
-                    new IngredientElement(typeof(AmanitaMushroomSporesItem), 8, typeof(FertilizersSkill), typeof(FertilizersLavishResourcesTalent)),
+                    new IngredientElement(typeof(AmanitaMushroomSporesItem), 4, typeof(FertilizersSkill), typeof(FertilizersLavishResourcesTalent)),
 					new IngredientElement(typeof(CompostFertilizerItem), 1, typeof(FertilizersSkill), typeof(FertilizersLavishResourcesTalent)),
                 },
 

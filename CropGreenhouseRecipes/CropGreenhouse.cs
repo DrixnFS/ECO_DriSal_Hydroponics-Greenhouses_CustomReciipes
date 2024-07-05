@@ -441,7 +441,7 @@ namespace Eco.Mods.TechTree
     [Tag("Crafting Table")]
     [Weight(5000)] // Defines how heavy CropGreenhouse is.
 	[MaxStackSize(200)]
-    [AllowPluginModules(Tags = new[] { "AdvancedUpgrade" }, ItemTypes = new[] {})] //noloc
+    [AllowPluginModules(Tags = new[] { "AdvancedUpgrade" }, ItemTypes = new[] { typeof(AdvancedFertilizersUpgradeItem) })]
     public partial class CropGreenhouseItem : WorldObjectItem<CropGreenhouseObject>, IPersistentData
     {
         protected override OccupancyContext GetOccupancyContext => new SideAttachedContext( 0  | DirectionAxisFlags.Down , WorldObject.GetOccupancyInfo(this.WorldObjectType));
